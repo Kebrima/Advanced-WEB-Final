@@ -1,0 +1,220 @@
+<!--Carousel Wrapper-->
+
+<div id="multi-item-example" class="carousel slide mt-0" data-ride="carousel" interval="1000">
+  <!--Controls-->
+  <div class="controls-top mx-auto text-center">
+    <a class="carousel-control-prev" href="#multi-item-example" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </a>
+    <a class="carousel-control-next" href="#multi-item-example" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </a>
+  </div>
+  <!--/.Controls-->
+
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+    <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+    <li data-target="#multi-item-example" data-slide-to="1"></li>
+    <li data-target="#multi-item-example" data-slide-to="2"></li>
+    <li data-target="#multi-item-example" data-slide-to="3"></li>
+  </ol>
+  <!--/.Indicators-->
+
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+    <!--First slide-->
+    <div class="carousel-item active">
+
+      <div class="card-deck">
+        <div class="carousel-inner">
+          <img src="assets/img/9.png" class="card-img-top" alt="">
+        </div>
+      </div>
+    </div>
+
+    <!--Second slide-->
+    <div class="carousel-item">
+
+      <div class="card-deck">
+        <div class="carousel-inner">
+          <img src="assets/img/10.png" class="card-img-top" alt="...">
+        </div>
+      </div>
+    </div>
+    <!--/.Second slide-->
+
+    <!--Third slide-->
+    <div class="carousel-item">
+
+      <div class="card-deck">
+        <div class="carousel-inner">
+          <img src="assets/img/11.png" class="card-img-top" alt="...">
+        </div>
+      </div>
+    </div>
+    <!--/.third slide-->
+
+    <!--Fourth slide-->
+    <div class="carousel-item">
+
+      <div class="card-deck">
+        <div class="carousel-inner">
+          <img src="assets/img/12.png" class="card-img-top" alt="...">
+        </div>
+      </div>
+    </div>
+    <!--/.fourth slide-->
+
+  </div>
+  <!--/.Slides-->
+
+</div>
+<!--/.Carousel Wrapper-->
+
+<div class="container">
+  <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <h1 [ngStyle]="{'font-family': style, 'font-size': textsize}" class="display-4"><b><b>О Ресторане</b></b></h1>
+    <p [ngStyle]="{'color': textcolor}" class="lead">{{rest.desc}}</p>
+
+    <h4 [ngStyle]="{'font-family': style, 'font-size': textsize}" class="display-3"><b><b>Меню</b></b></h4>
+    <button style="color: gray; border: black; border: solid; " (click)="Destroy()" type="submit" class="btn accent-3 container ">Показать меню</button>
+
+    <iframe *ngIf=" a == true" src="https://dbcfe731-11f1-4575-bc8b-dcbd499c41c5.filesusr.com/ugd/c8d38d_661d384e83814b6eaecd30d202663fc9.pdf"
+            style="width: 900px; height: 600px;" frameborder="10" embedded=true>Ваш браузер не поддерживает фреймы</iframe>
+    <a href="https://dbcfe731-11f1-4575-bc8b-dcbd499c41c5.filesusr.com/ugd/c8d38d_661d384e83814b6eaecd30d202663fc9.pdf"><img src="https://static.wixstatic.com/media/c8d38d_3ba3de2c0f4c4c06aaf63e23a7dc5631~mv2.png/v1/fill/w_400,h_125,al_c,q_85,usm_0.66_1.00_0.01/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA_PNG.webp"></a>
+    <a href="https://dbcfe731-11f1-4575-bc8b-dcbd499c41c5.filesusr.com/ugd/c8d38d_5bcbb3106c05405b829c0527d970d859.pdf"><img style="padding: 10px" src="https://static.wixstatic.com/media/c8d38d_7f7682e728d246509ed0171e2c0f6c66~mv2.png/v1/fill/w_378,h_125,al_c,q_85,usm_0.66_1.00_0.01/%D0%91%D0%B0%D1%80-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B5_PNG.webp"></a>
+    <a href="https://dbcfe731-11f1-4575-bc8b-dcbd499c41c5.filesusr.com/ugd/c8d38d_6e467c47bf8045f299a6671e32ae2e74.pdf"><img src="https://static.wixstatic.com/media/c8d38d_4c92430c445a4b3c993c8f1869a99e7e~mv2.png/v1/fill/w_378,h_121,al_c,lg_1,q_85/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA2_PNG.webp"></a>
+
+    <h4 [ngStyle]="{'font-family': style, 'font-size': textsize}" class="display-3 mt-2"><b><b>Интерьер</b></b></h4>
+
+<!--    Inter'er carousel-->
+
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide mt-0" data-ride="carousel" interval="1000">
+      <!--Controls-->
+      <div class="controls-top mx-auto text-center">
+        <a class="carousel-control-prev" href="#multi-item-example" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#multi-item-example" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+      </div>
+      <!--/.Controls-->
+
+      <!--Indicators-->
+      <ol class="carousel-indicators">
+        <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+        <li data-target="#multi-item-example" data-slide-to="1"></li>
+        <li data-target="#multi-item-example" data-slide-to="2"></li>
+        <li data-target="#multi-item-example" data-slide-to="3"></li>
+      </ol>
+      <!--/.Indicators-->
+
+      <!--Slides-->
+      <div class="carousel-inner" role="listbox">
+        <!--First slide-->
+        <div class="carousel-item active">
+
+          <div class="card-deck">
+            <div class="carousel-inner">
+              <img style="width: 900px" src="https://static.wixstatic.com/media/039b93_304cec9d7c4e423eb8e2609ff805e0f7~mv2.jpg" class="card-img-top" alt="">
+            </div>
+          </div>
+        </div>
+
+        <!--Second slide-->
+        <div class="carousel-item">
+
+          <div class="card-deck">
+            <div class="carousel-inner">
+              <img style="width: 1000px" src="https://static.wixstatic.com/media/039b93_9d01a8a87f1445f4bfe1d9f54fbc5f70~mv2.jpg/v1/fill/w_980,h_584,fp_0.50_0.50,q_90/039b93_9d01a8a87f1445f4bfe1d9f54fbc5f70~mv2.jpg" class="card-img-top" alt="...">
+            </div>
+          </div>
+        </div>
+        <!--/.Second slide-->
+
+        <!--Third slide-->
+        <div class="carousel-item">
+
+          <div class="card-deck">
+            <div class="carousel-inner">
+              <img style="width: 1000px" src="https://static.wixstatic.com/media/039b93_bdb89c6a445a4ff0869268e336eec852~mv2.jpg/v1/fill/w_980,h_584,fp_0.50_0.50,q_90/039b93_bdb89c6a445a4ff0869268e336eec852~mv2.jpg" class="card-img-top" alt="...">
+            </div>
+          </div>
+        </div>
+        <!--/.third slide-->
+
+        <!--Fourth slide-->
+        <div class="carousel-item">
+
+          <div class="card-deck">
+            <div class="carousel-inner">
+              <img style="width: 1000px" src="https://static.wixstatic.com/media/039b93_466c2f34f32f4e349b85457ac32572b6~mv2.jpg/v1/fill/w_980,h_584,fp_0.50_0.50,q_90/039b93_466c2f34f32f4e349b85457ac32572b6~mv2.jpg" class="card-img-top" alt="...">
+            </div>
+          </div>
+        </div>
+        <!--/.fourth slide-->
+
+      </div>
+      <!--/.Slides-->
+
+    </div>
+    <!--/.Carousel Wrapper-->
+
+    <div class=" px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+      <p [ngStyle]="{'font-family': style}" style="font-size: 25px;"><b><b>Контакты</b></b></p>
+    </div>
+    <table class="table">
+      <!-- Table head -->
+      <thead>
+      <tr>
+        <th><i class="fas fa-map-marker-alt fa-3x"></i></th>
+        <th><i class="fas fa-phone-alt fa-3x"></i></th>
+        <th><i class="fas fa-clock fa-3x"></i></th>
+        <th><i class="far fa-address-book fa-3x"></i></th>
+      </tr>
+      </thead>
+      <!-- Table head -->
+
+      <!-- Table body -->
+      <tbody>
+      <tr>
+        <th style="width: 20%" scope="row">{{rest.address}}
+<!--          г. Алматы, пр-<br>т. Достык 106 г, уг.пр. Абая-->
+        </th>
+        <td>{{rest.phone}}
+<!--          +7 727 352 70 70<br>-->
+<!--          +7 775 529 69 00</td>-->
+        <td>  Вс-Чт: с 11:00 до 01:00.<br>
+          Пт-Сб и праздничные дни:<br>
+          11:00 - 03:00.</td>
+        <td><i style="padding: 10px" class="fab fa-whatsapp fa-3x"></i><i class="fab fa-instagram fa-3x"></i><br><i style="padding: 10px" class="fab fa-facebook-square fa-3x"></i><i class="fab fa-youtube fa-3x"></i></td>
+      </tr>
+      </tbody>
+      <!-- Table body -->
+    </table>
+    <div style="width: 100%"><iframe width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=300&amp;hl=en&amp;q=%D0%A1%D0%B5%D1%82%D1%8C%20%D1%80%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD%D0%BE%D0%B2%20%D0%90%D0%A1%D0%A1%D0%9E%D0%A0%D0%A2%D0%98%20%D0%BF%D1%80%D0%BE%D1%81%D0%BF%D0%B5%D0%BA%D1%82%20%D0%94%D0%BE%D1%81%D1%82%D1%8B%D0%BA%20106,%20%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B%20050000+(My%20Business%20Name)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+
+  </div>
+</div>
+<div class="col-lg-6 mx-auto text-center form mt-5 mb-5">
+  <h3>Оставьте отзыв:</h3>
+  <h4 class="display-5 text-truncate" style="text-align: left">Ваше имя:</h4>
+  <div>
+    <form [formGroup]="reviewForm" class="justify-content-center" (ngSubmit)="reviewForm.valid && addReview(newReview)">
+      <div class="form-group">
+        <input required type="text" class="form-control" placeholder="Введите имя" #newName [(ngModel)]="newReview.name" formControlName="newName" [ngClass]="{'is-invalid': reviewForm.get('newName').touched && reviewForm.get('newName').invalid}">
+      </div>
+      <h4 class="display-5 text-truncate" style="text-align: left">Отзыв:</h4>
+      <div class="form-group">
+        <textarea class="form-control" #newRev [(ngModel)]="newReview.rev"  id="exampleFormControlTextarea1" rows="3" placeholder="Введите отзыв" required formControlName="newRev" [ngClass]="{'is-invalid': reviewForm.get('newRev').touched && reviewForm.get('newRev').invalid}"></textarea>
+      </div>
+      <button style="background-color: gray" type="submit" class="btn" [disabled]='!reviewForm.valid'>Отправить</button>
+    </form>
+  </div>
+</div>
+<div class="container mt-3" *ngIf="Reviews.length != 0">
+  <h4 style="text-align: center">Отзывы:</h4>
+  <ul class="list-group my-3 mx-5">
+    <li *ngFor="let item of Reviews" class="list-group-item"><h5>{{item.name}}</h5><br>{{item.rev}}<button (click)="increment()" class="btn btn-sm btn-outline"><i class="far fa-heart red-text"></i></button><br><span>Нравятся:0</span></li>
+    <li class="list-group-item"><h5>Дастан</h5><br>мне очень понравилось, обслуживание на высоте<button (click)="increment()" class="btn btn-sm btn-outline"><i class="far fa-heart red-text"></i></button><app-like  [myNewnumber] = "counter"></app-like></li>
+  </ul>
+</div>

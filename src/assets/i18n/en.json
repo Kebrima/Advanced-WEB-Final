@@ -1,0 +1,60 @@
+{
+  "RESIDENCE": {
+    "CITY": "Almaty",
+    "TITLE": "Today ASSORTI is a classic in a new reading! Conceptual interior, high author's cuisine that can surprise even the most discerning guests and a unique bar with gastronomic delights!"
+  },
+  "MEGA": {
+    "TITLE": "The Mega Assorti restaurant is distinguished by its special elegance and has a unique classic aesthetics."
+  },
+  "KERUEN": {
+    "CITY": "Aktobe",
+    "TITLE": "The restaurant is one of the favorite places of the residents of the city of Aktobe, as they say \"The meeting place cannot be changed!\" Excellent cuisine, cozy atmosphere and convenient location!"
+  },
+  "CITYMALL": {
+    "CITY": "Karaganda",
+    "TITLE": "Excellent cuisine, cozy atmosphere and a gorgeous view of Karaganda."
+  },
+  "DESCRIPTION": {
+    "NAME": "\"ASSORTI\" Restaurant Chain",
+    "DESC": "The magic of the ASSORTI restaurants is the halls in different styles and with different interiors. Any hall evokes a sense of respectability and comfort, and warm lighting adjusts for a pleasant pastime.\nExcellent taste and author's serving of dishes in absolutely all restaurants of the chain. A large selection of hot dishes, salads, snacks, desserts. In the bar menu, the guest will surely find his favorite drink.\nThe ASSORTI restaurants offer European, Pan-Asian and national cuisine."
+  },
+  "SWEETS": {
+    "NAME": "ASSORTI SWEET ALMATY",
+    "DESC": "In preparing for the holiday, you should be extremely careful, because even the smallest detail left unattended can spoil the overall impression of the festive event. Of course, you can do the festive table yourself, but in the case of dessert, the overwhelming majority of people prefer to order a cake from our pastry chefs, who specialize in cooking masterpieces of the culinary art! The \"Assorti\" company employs professionals who practice a creative approach to creating truly high-quality, delicious and incredibly beautiful cakes!",
+    "AD": "You can always order a sweet treat from us at a price of 3500 tenge / kg",
+    "INST": "We are on Instagram"
+  },
+  "RESCON": {
+    "ADDRESS": "Almaty, pr-\nt. Dostyk 106 g, corner ave. Abay",
+    "PHONE": "+7 727 352 70 70\n+7 775 529 69 00",
+    "TIME": "Sun-Thu: from 11:00 to 01:00.\nFri-Sat and public holidays:\n11:00 - 03:00"
+  },
+  "MEGACON": {
+    "ADDRESS": "Almaty city,\nst. Rozybakiyeva, 263A,\nbelow Al-Farabi Ave.,\n(TC MEGA 1)",
+    "PHONE": "+7 727 330 75 84\n+7 775 977 71 77",
+    "TIME": "Weekdays: 11:00 - 01:00 Weekends: 10:00 - 01:00"
+  },
+  "AKTOCON": {
+    "ADDRESS": "Aktobe,\nst. Mametova,\n4 SEC \"Keruen City\"",
+    "PHONE": "+7 7132 777 095",
+    "TIME": "Mon - Thu, Sun: 10:00 - 01:00\nFri - Sat: 10:00 - 03:00"
+  },
+  "KARACON": {
+    "ADDRESS": "Karaganda city,\nst. Bukhar-Zhyrau, 59/2,\nSEC \"CITY MALL\"",
+    "PHONE": "+7 7212 911 707",
+    "TIME": "Daily 12:00 - 24:00"
+  },
+  "FORM": {
+    "BTN": "Click for contact",
+    "NAME": "Name:",
+    "EMAIL": "E-mail:",
+    "MESSAGE": "Message:",
+    "SUBMIT": "Submit",
+    "CLOCK": "Time"
+  },
+  "NAV": {
+    "FIRST": "Home",
+    "SECOND": "Assorti Sweets",
+    "THIRD": "Contacts"
+  }
+}

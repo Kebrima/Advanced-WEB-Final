@@ -1,0 +1,92 @@
+<!--Carousel Wrapper-->
+
+<div id="multi-item-example" class="carousel slide mt-0" data-ride="carousel" data-inteval="1000">
+  <!--Controls-->
+  <div class="controls-top mx-auto text-center">
+    <a class="carousel-control-prev" href="#multi-item-example" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </a>
+    <a class="carousel-control-next" href="#multi-item-example" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </a>
+  </div>
+  <!--/.Controls-->
+
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+    <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+    <li data-target="#multi-item-example" data-slide-to="1"></li>
+    <li data-target="#multi-item-example" data-slide-to="2"></li>
+    <li data-target="#multi-item-example" data-slide-to="3"></li>
+  </ol>
+  <!--/.Indicators-->
+
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+    <!--First slide-->
+    <div class="carousel-item active">
+
+      <div class="card-deck">
+        <div class="carousel-inner">
+          <img src="assets/img/5.png" class="card-img-top" alt="">
+        </div>
+      </div>
+    </div>
+
+    <!--Second slide-->
+    <div class="carousel-item">
+
+      <div class="card-deck">
+        <div class="carousel-inner">
+          <img src="assets/img/6.png" class="card-img-top" alt="...">
+        </div>
+      </div>
+    </div>
+    <!--/.Second slide-->
+
+    <!--Third slide-->
+    <div class="carousel-item">
+
+      <div class="card-deck">
+        <div class="carousel-inner">
+          <img src="assets/img/7.png" class="card-img-top" alt="...">
+        </div>
+      </div>
+    </div>
+    <!--/.third slide-->
+
+    <!--Fourth slide-->
+    <div class="carousel-item">
+
+      <div class="card-deck">
+        <div class="carousel-inner">
+          <img src="assets/img/8.png" class="card-img-top" alt="...">
+        </div>
+      </div>
+    </div>
+    <!--/.fourth slide-->
+
+  </div>
+  <!--/.Slides-->
+
+</div>
+<!--/.Carousel Wrapper-->
+
+<div class="container">
+  <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <button style="background: gray" class="btn border mb-2" (click)="translate.use('en')">English</button>
+    <button style="background: gray" class="btn border mb-2" (click)="translate.use('ru')">Руский</button>
+    <h1 [ngStyle]="{'font-family': style}" class="display-4"><b><b>{{'SWEETS.NAME'| translate}}</b></b></h1>
+    <p style="" class="lead">{{'SWEETS.DESC'| translate}}</p>
+  </div>
+</div>
+
+
+
+<div class="pricing-header px-3 py-3 pt-md-3 pb-md-4 mx-auto text-center">
+  <p [ngStyle]="{'font-family': style}" style="font-size: 20px;color: mediumblue;letter-spacing: 3px" class="">{{'SWEETS.AD'| translate}}</p>
+</div>
+<div class="pricing-header px-3 py-3 pt-md-3 pb-md-4 mx-auto text-center">
+  <img style="width: 90px" src="https://static.wixstatic.com/media/c8d38d_485e4c812f60434685f53fe0482bf0c0~mv2.png">
+  <p style="font-size: 20px; letter-spacing: 5px;"><a style="color: hotpink" href="https://www.instagram.com/tortiki_assorti/">{{'SWEETS.INST'| translate}}</a></p>
+<!--  <h5 style="color: mediumblue" class="display-5"></h5>-->
+</div>
+

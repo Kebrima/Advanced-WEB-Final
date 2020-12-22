@@ -1,0 +1,143 @@
+<!--Carousel Wrapper-->
+
+<div id="multi-item-example" class="carousel slide mt-0" data-ride="carousel" data-inteval="1000">
+  <!--Controls-->
+  <div class="controls-top mx-auto text-center">
+    <a class="carousel-control-prev" href="#multi-item-example" data-slide="prev"><span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    </a>
+    <a class="carousel-control-next" href="#multi-item-example" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </a>
+  </div>
+  <!--/.Controls-->
+
+  <!--Indicators-->
+  <ol class="carousel-indicators">
+    <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+    <li data-target="#multi-item-example" data-slide-to="1"></li>
+    <li data-target="#multi-item-example" data-slide-to="2"></li>
+    <li data-target="#multi-item-example" data-slide-to="3"></li>
+  </ol>
+  <!--/.Indicators-->
+
+  <!--Slides-->
+  <div class="carousel-inner" role="listbox">
+    <img class="ml-10" style="position: relative; z-index: 10000;" src="https://static.wixstatic.com/media/c8d38d_fa079d7f79fa4cfbb070d4d07af2c5a7~mv2_d_3039_1245_s_2.png/v1/fill/w_600,h_245,al_c,q_85,usm_0.66_1.00_0.01/%D0%90%D0%A1%D0%A1%D0%9E%D0%A0%D0%A2%D0%98%20%D0%A3%D0%90%D0%99%D0%A2.webp">
+    <!--First slide-->
+    <div class="carousel-item active">
+
+      <div class="card-deck">
+        <div class="carousel-inner">
+          <img src="assets/img/2.png" class="card-img-top" alt="">
+        </div>
+      </div>
+    </div>
+
+    <!--Second slide-->
+    <div class="carousel-item">
+
+      <div class="card-deck">
+        <div class="carousel-inner">
+          <img src="assets/img/1.png" class="card-img-top" alt="...">
+        </div>
+      </div>
+    </div>
+    <!--/.Second slide-->
+
+    <!--Third slide-->
+    <div class="carousel-item">
+
+      <div class="card-deck">
+        <div class="carousel-inner">
+          <img src="assets/img/3.png" class="card-img-top" alt="...">
+        </div>
+      </div>
+    </div>
+    <!--/.third slide-->
+
+    <!--Fourth slide-->
+    <div class="carousel-item">
+
+      <div class="card-deck">
+        <div class="carousel-inner">
+          <img src="assets/img/4.png" class="card-img-top" alt="...">
+        </div>
+      </div>
+    </div>
+    <!--/.fourth slide-->
+
+  </div>
+  <!--/.Slides-->
+
+</div>
+<!--/.Carousel Wrapper-->
+
+<div class="container">
+<div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+  <button style="background: gray" class="btn border" (click)="translate.use('en')">English</button>
+  <button style="background: gray" class="btn border" (click)="translate.use('ru')">Руский</button>
+  <h1 class="display-4"><b><b>{{'DESCRIPTION.NAME'| translate}}</b></b></h1>
+  <p style="" class="lead">{{'DESCRIPTION.DESC'| translate}}</p>
+</div>
+</div>
+<div class="container">
+  <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+<!--<div class="col-sm-12 mx-auto">-->
+  <h1 class="container mx-auto display-5">{{'RESIDENCE.CITY'| translate}}</h1>
+  </div>
+</div>
+
+<div class="mainl holder">
+  <a routerLink="/restaurant/1"><img class="mainimg" src="https://static.wixstatic.com/media/c8d38d_0484f2b7a8164656907de7ad97dea1fe~mv2.jpg"></a>
+  <h2 style="color: white;">Residence</h2>
+<!--  <div class="block"><p class="textcolor"><b>Сегодня «ASSORTI» - это классика в новом прочтении!<br>Концептуальный интерьер, высокая авторская кухня способная удивить даже самых взыскательных гостей и неповторимый бар с гастрономическими изысками!</b></p></div>-->
+
+  <div class="block"><p class="textcolor"><b>{{'RESIDENCE.TITLE'| translate}}</b></p></div>
+
+  <!--</div>-->
+</div>
+
+
+<div class="container">
+  <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <!--<div class="col-sm-12 mx-auto">-->
+<!--    <h1 class="container mx-auto display-5">Нурсултан</h1>-->
+  </div>
+</div>
+<div class="mainr holder mt-5">
+  <a routerLink="/restaurant/2"><img class="mainimg" src="https://static.wixstatic.com/media/c8d38d_9ea186e5894e4204833dfff784802c57~mv2.jpg"></a>
+  <h2 style="color: white; width: 10%; left: 300px">Mega</h2>
+  <div class="block"><p class="textcolor"><b>{{'MEGA.TITLE'| translate}}</b></p></div>
+  <!--</div>-->
+</div>
+
+<div class="container mt-5">
+  <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <!--<div class="col-sm-12 mx-auto">-->
+    <h1 class="container mx-auto display-5">{{'KERUEN.CITY'| translate}}</h1>
+  </div>
+</div>
+<div class="container mx-auto holder" style="left: 100px">
+  <a routerLink="/restaurant/3"><img class="mainimg" src="https://static.wixstatic.com/media/c8d38d_0484f2b7a8164656907de7ad97dea1fe~mv2.jpg"></a>
+  <h2 style="color: white; width: 25%">Keruen - City</h2>
+  <div class="block"><p class="textcolor">{{'KERUEN.TITLE'| translate}} </p></div>
+  <!--</div>-->
+</div>
+
+
+
+<div class="container mt-5">
+  <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <!--<div class="col-sm-12 mx-auto">-->
+    <h1 class="container mx-auto display-5">{{'CITYMALL.CITY'| translate}}</h1>
+  </div>
+</div>
+<div class="container mx-auto holder" style="left: 100px">
+  <a routerLink="/restaurant/4"><img class="mainimg" style="padding-bottom: 30px" src="https://static.wixstatic.com/media/c8d38d_0484f2b7a8164656907de7ad97dea1fe~mv2.jpg"></a>
+  <h2 style="color: white; width: 17%">City - Mall</h2>
+  <div class="block"><p class="textcolor">{{'CITYMALL.TITLE'| translate}}</p></div>
+  <!--</div>-->
+</div>
+
+
+
+

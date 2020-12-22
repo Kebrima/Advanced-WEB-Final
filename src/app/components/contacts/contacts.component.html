@@ -1,0 +1,160 @@
+<div class="container">
+
+  <div class="album  mt-5">
+    <div class="container">
+      <div class="text-center">
+      <button style="background: gray" class="btn border mb-2" (click)="translate.use('en')">English</button>
+      <button style="background: gray" class="btn border mb-2" (click)="translate.use('ru')">Руский</button>
+      <button style="color: gray; border: black; border: solid; " (click)="Destroy()" type="submit" class="btn accent-3 container ">{{'FORM.BTN'| translate}}</button>
+      </div>
+        <form action="https://formspree.io/f/xwkwvjod" method="post" *ngIf=" a == true">
+        <div class="form-group form-group green-border-focus">
+          <label class="col-sm-2 col-form-label">{{'FORM.NAME'| translate}}</label>
+          <div class="col-sm-10">
+            <input type="" class="form-control" id="">
+          </div>
+          <label  class="col-sm-2 col-form-label" >{{'FORM.EMAIL'| translate}}</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" name="From">
+          </div>
+          <!--    <div class="col-sm-10">-->
+          <!--      <textarea name="Message"></textarea>-->
+          <!--    </div>-->
+          <div class="form-group ml-3">
+            <label for="exampleFormControlTextarea1" >{{'FORM.MESSAGE'| translate}}</label>
+            <textarea class="form-control" name="Message" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+        </div>
+        <div class=" row">
+          <div class="ml-4">
+            <button style="color: gray; color: gray;border: solid;" type="submit" class="btn accent-3 mb-2">{{'FORM.SUBMIT'| translate}}</button>
+          </div>
+        </div>
+      </form>
+      <p style="font-size:20px; left: 900px" class="mx-auto text-center" aria-current="page">{{'FORM.CLOCK'| translate}} {{today | date:'h:mm'}}</p>
+    </div>
+  </div>
+
+
+
+  <div class=" px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+      <p [ngStyle]="{'font-family': style}" style="font-size: 25px;"><b><b>Residence</b></b></p>
+    </div>
+<table class="table text-center">
+  <!-- Table head -->
+  <thead>
+  <tr>
+    <th><i class="fas fa-map-marker-alt fa-3x"></i></th>
+    <th><i class="fas fa-phone-alt fa-3x"></i></th>
+    <th><i class="fas fa-clock fa-3x"></i></th>
+    <th><i class="far fa-address-book fa-3x"></i></th>
+  </tr>
+  </thead>
+  <!-- Table head -->
+
+  <!-- Table body -->
+  <tbody>
+  <tr>
+    <th style="width: 30%" scope="row">{{'RESCON.ADDRESS'| translate}}</th>
+    <td style="width: 15%">{{'RESCON.PHONE'| translate}}</td>
+    <td style="width: 30%"> {{'RESCON.TIME'| translate}}</td>
+    <td><i style="padding: 10px" class="fab fa-whatsapp fa-3x"></i><i class="fab fa-instagram fa-3x"></i><br><i style="padding: 10px" class="fab fa-facebook-square fa-3x"></i><i class="fab fa-youtube fa-3x"></i></td>
+  </tr>
+  </tbody>
+  <!-- Table body -->
+</table>
+<!-- Table  -->
+
+
+  <div class=" px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <p [ngStyle]="{'font-family': style}" style="font-size: 25px;"><b><b>Mega</b></b></p>
+  </div>
+  <table class="table text-center">
+    <!-- Table head -->
+    <thead>
+    <tr>
+      <th><i class="fas fa-map-marker-alt fa-3x"></i></th>
+      <th><i class="fas fa-phone-alt fa-3x"></i></th>
+      <th><i class="fas fa-clock fa-3x"></i></th>
+      <th><i class="far fa-address-book fa-3x"></i></th>
+    </tr>
+    </thead>
+    <!-- Table head -->
+
+    <!-- Table body -->
+    <tbody>
+    <tr>
+      <th style="width: 30%" scope="row">{{'MEGACON.ADDRESS'| translate}}</th>
+      <td style="width: 15%" >{{'MEGACON.PHONE'| translate}}</td>
+      <td style="width: 30%" >{{'MEGACON.TIME'| translate}}</td>
+      <td><i style="padding: 10px" class="fab fa-whatsapp fa-3x"></i><i class="fab fa-instagram fa-3x"></i><br><i style="padding: 10px" class="fab fa-facebook-square fa-3x"></i><i class="fab fa-youtube fa-3x"></i></td>
+    </tr>
+    </tbody>
+    <!-- Table body -->
+  </table>
+  <!-- Table  -->
+
+
+
+
+
+  <div class=" px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <p [ngStyle]="{'font-family': style}" style="font-size: 25px;"><b><b>Aktobe</b></b></p>
+  </div>
+  <table class="table text-center">
+    <!-- Table head -->
+    <thead>
+    <tr>
+      <th><i class="fas fa-map-marker-alt fa-3x"></i></th>
+      <th><i class="fas fa-phone-alt fa-3x"></i></th>
+      <th><i class="fas fa-clock fa-3x"></i></th>
+      <th><i class="far fa-address-book fa-3x"></i></th>
+    </tr>
+    </thead>
+    <!-- Table head -->
+
+    <!-- Table body -->
+    <tbody>
+    <tr>
+      <th style="width: 30%" scope="row">{{'AKTOCON.ADDRESS'| translate}}</th>
+      <td style="width: 15%" >{{'AKTOCON.PHONE'| translate}}</td>
+      <td style="width: 30%" > {{'AKTOCON.TIME'| translate}}</td>
+      <td><i class="fab fa-instagram fa-3x"></i><i style="padding: 10px" class="fab fa-facebook-square fa-3x"></i><br><i class="fab fa-youtube fa-3x"></i></td>
+    </tr>
+    </tbody>
+    <!-- Table body -->
+  </table>
+  <!-- Table  -->
+
+
+  <div class=" px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+    <p [ngStyle]="{'font-family': style}" style="font-size: 25px;"><b><b>Karaganda</b></b></p>
+  </div>
+  <table class="table text-center">
+    <!-- Table head -->
+    <thead>
+    <tr>
+      <th><i class="fas fa-map-marker-alt fa-3x"></i></th>
+      <th><i class="fas fa-phone-alt fa-3x"></i></th>
+      <th><i class="fas fa-clock fa-3x"></i></th>
+      <th><i class="far fa-address-book fa-3x"></i></th>
+    </tr>
+    </thead>
+    <!-- Table head -->
+
+    <!-- Table body -->
+    <tbody>
+    <tr>
+      <th style="width: 30%" scope="row">{{'KARACON.ADDRESS'| translate}}</th>
+      <td style="width: 15%">{{'KARACON.PHONE'| translate}}
+      </td>
+      <td style="width: 30%">{{'KARACON.TIME'| translate}}</td>
+      <td><i class="fab fa-instagram fa-3x"></i><i style="padding: 10px" class="fab fa-facebook-square fa-3x"></i><br><i class="fab fa-youtube fa-3x"></i></td>
+    </tr>
+    </tbody>
+    <!-- Table body -->
+  </table>
+  <!-- Table  -->
+
+
+</div>

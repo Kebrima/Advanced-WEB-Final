@@ -1,0 +1,57 @@
+.ml-10{
+  margin-left: 450px;
+  margin-top: 60px;
+}
+.mainl{
+  margin-left: 200px;
+}
+
+.mainr{
+  margin-left: 600px;
+}
+
+.mainimg{
+  width: 700px;
+  height: 300px;
+}
+
+
+.holder{
+  position:relative;
+  width:900px;
+  height:250px;
+}
+.block{
+  position:absolute;
+  display:none;
+  position: absolute;
+  top: 60%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  bottom:0;
+  right:0;
+}
+.holder:hover .block{
+  display: block;
+}
+.textcolor{
+  color: white;
+  /*background-color: gray;*/
+  font-size: 20px;
+  background		: rgb(0, 0, 0); /* на случай, если следующая строка не сработает */
+  background		: rgba(0, 0, 0, 0.7);
+}
+.bgcolor{
+ background-color: black;
+}
+
+h2 {
+  position	: absolute;
+  bottom		: 200px;
+  left		: 270px;
+  width		: 17%;
+  background		: rgba(0, 0, 0, 0.7);
+}
+.langbtn{
+  background-color: rgb();
+}
